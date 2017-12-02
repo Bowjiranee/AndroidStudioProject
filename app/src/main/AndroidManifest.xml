@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.user.wordquiz">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Main2Activity" />
+        <activity android:name=".Quiz1Fruit" />
+        <activity android:name=".Quiz2Fruit" />
+        <activity android:name=".Quiz3Fruit" />
+        <activity android:name=".Quiz4Fruit" />
+        <activity android:name=".Quiz5Fruit" />
+        <activity android:name=".Quiz1Things" />
+        <activity android:name=".Quiz2Things" />
+        <activity android:name=".Quiz3Things" />
+        <activity android:name=".Quiz4Things" />
+        <activity android:name=".Quiz5Things" />
+        <activity android:name=".Quiz1Flower" />
+        <activity android:name=".Quiz2Flower" />
+        <activity android:name=".Quiz3Flower" />
+        <activity android:name=".Quiz4Flower" />
+        <activity android:name=".Quiz5Flower" />
+        <activity android:name=".MainActivityScore"></activity>
+    </application>
+
+</manifest>

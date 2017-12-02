@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    tools:context="com.example.user.wordquiz.Quiz5Fruit">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="175dp"
+        app:srcCompat="@drawable/lychee" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/blueberry_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="blueberry" />
+
+        <Button
+            android:id="@+id/pear_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="pear" />
+
+        <Button
+            android:id="@+id/Lychee_button1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="lychee" />
+
+    </LinearLayout>
+
+</LinearLayout>
